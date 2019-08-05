@@ -1,0 +1,39 @@
+在Centos中，通过yum安装ruby的版本是2.0.0，但是如果有些应用需要高版本的ruby环境，那就有点麻烦了。
+
+譬如：我准备使用redis官方给的工具：redis-trib.rb 这个工具构建redis集群的时候，报错了：
+
+“redis requires Ruby version >= 2.2.2”
+
+我们使用换源安装，安装步骤：
+
+Step1：
+
+yum install centos-release-scl-rh
+
+Step2：
+
+yum install rh-ruby23  -y
+
+Step3：
+
+ scl  enable  rh-ruby23 bash
+
+centos 安装brew
+git clone --depth=1 https://github.com/Homebrew/brew.git /home/program/homwbrew
+cd ~/
+vi .bashrc
+export HOME_BREW=/home/program/homebrew
+PATH=$PATH:$HOME_BREW/bin
+source .bashrc
+
+
+
+Appium install 
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+cnpm install -g appium
+//cnpm install appium@1.8.1
+cnpm install wd
+appium               # start appium
+node your-appium-test.js  or use appium action for other language
+
+

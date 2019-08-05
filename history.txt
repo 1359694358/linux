@@ -1,0 +1,704 @@
+    1  su
+    2  chmod 777 -R .
+    3  su
+    4  su
+    5  ll
+    6  ps -ef|grep mysqld
+    7  su
+    8  setenforce 0
+    9  su
+   10  java -v
+   11  java -version
+   12  pwd
+   13  vi idea.desktop
+   14  touch idea.desktop
+   15  vi idea.desktop
+   16  cd /
+   17  cd home/
+   18  cd /
+   19  chmod 777 home -R
+   20  su
+   21  ll
+   22  ls -a
+   23  ll  -a
+   24  cat /proc/cpuinfo
+   25  lscpu
+   26  free -m
+   27  df -h
+   28  fdisk -l
+   29  lspci
+   30  lspci |grep -i vga
+   31  ps -qe|grep httpd
+   32  ps -qe httpd
+   33  ps -qf|grep -i httpd
+   34  su
+   35  su
+   36  git clone --depth=1 https://github.com/1359694358/javaweb.git
+   37  su
+   38  java -version
+   39  cd /
+   40  cd home/document/
+   41  ls
+   42  git clone --depth=1 https://github.com/1359694358/javaweb.git
+   43  cd /home/software/
+   44  ls
+   45  unzip chromedriver_linux64.zip 
+   46  ls
+   47  ll
+   48  ps
+   49  ps -qe|grep idea
+   50  ls
+   51  unzip gradle-5.4.1-bin.zip 
+   52  cd ~
+   53  pwd
+   54  vi .bashrc
+   55  source .bashrc
+   56  gradle --version
+   57  vi .bashrc
+   58  source .bashrc
+   59  java -version
+   60  sh idea.sh
+   61  cd /home/document/
+   62  ls
+   63  git clone --depth=1 https://github.com/1359694358/javaweb.git
+   64  cd test/
+   65  cd javaweb/
+   66  git status
+   67  cd /home/software/
+   68  cd gradle-5.4.1/
+   69  ls
+   70  cd bin
+   71  pwd
+   72  cd /home/software/
+   73  tar -zxf jdk-8u211-linux-x64.tar.gz 
+   74  cd jdk1.8.0_211/
+   75  cd bin
+   76  pwd
+   77  cd ..
+   78  ls
+   79  top
+   80  cd /home/document/test/javaweb/
+   81  git status
+   82  cd /
+   83  cd home/software/
+   84  tar -zxf geckodriver-v0.24.0-linux64.tar.gz 
+   85  cd ~
+   86  vi .bashrc
+   87  source .bashrc
+   88  java -version
+   89  cat $PATH
+   90  vi .bashrc
+   91  source .bashrc
+   92  pwd
+   93  cd ..
+   94  unzip android-ndk-r10e-linux-x86_64.zip 
+   95  cd android-ndk-r10e/
+   96  pwd
+   97  ls
+   98  su
+   99  git status
+  100  git commit -a -m "modifiy"
+  101  git push origin master
+  102  git status
+  103  cd /home/software/
+  104  ll
+  105  unzip sdk-tools-linux-4333796.zip 
+  106  cd /home/program/androidsdk/tools/
+  107  ls
+  108  cd bin
+  109  sh sdkmanager 
+  110  sh sdkmanager --list
+  111  sh sdkmanager "platform-tools" "platforms;android-28"
+  112  sh sdkmanager "build-tools;28.0.3"
+  113  ls
+  114  cd ..
+  115  android
+  116  sh android
+  117  sh android list sdk
+  118  sh android
+  119  adb devices
+  120  monkey
+  121  uiautomatorviewer
+  122  adb shell dumpsys
+  123  adb shell dumpsys activity|findstr "mFocu"
+  124  adb shell dumpsys activity|findstrng "mFocu"
+  125  adb shell dumpsys activity|findstring "mFocu"
+  126  adb shell dumpsys activity|findstr "mFocu"
+  127  adb shell
+  128  adb shell monkey -p com.sobey.appfactory -v 1000
+  129  adb shell monkey -p com.sobey.appfactory -v 10000
+  130  adb shell pm list
+  131  adb shell pm --list
+  132  adb shell pm packagelist
+  133  adb shell pm list packages
+  134  adb shell pm list packages -r
+  135  adb shell pm list packages -3
+  136  adb dumpsys activiy
+  137  adb shell dumpsys activiy
+  138  adb shell dumpsys activity
+  139  adb shell dumpsys activity top
+  140  adb shell dumpsys activity top|grep activity
+  141  adb shell dumpsys activity top
+  142  adb shell dumpsys activity|grep -i "Foc"
+  143  adb shell monkey -p com.sobey.appfactory --throttle 200 -v 10000
+  144  adb shell pm list packages -3
+  145  python -version
+  146  python -v
+  147  pip
+  148  python -v
+  149  pip
+  150  yum install pip
+  151  su
+  152  git status
+  153  git push origin master
+  154  git pull origin master
+  155  git status
+  156  ps aux
+  157  rpm -qa|grep -i httpd
+  158  rpm -qa|grep -i python
+  159  locate python
+  160  locate python2
+  161  locate python2.7
+  162  cd /usr/lib64/python2.7/
+  163  ls
+  164  locate python
+  165  python get-pip.py
+  166  cd /usr/local/
+  167  ls
+  168  cd lib
+  169  cd ..
+  170  cd lib64/
+  171  ls
+  172  cd ../
+  173  ls
+  174  cd bin/
+  175  ls
+  176  su
+  177  pip install wxpython==2.8.12.1
+  178  pip install wxpython
+  179  su
+  180  setenforce 0
+  181  su
+  182  cd /usr/lib
+  183  ln -s /usr/local/lib/libwx_gtk.so
+  184  su
+  185  locate script
+  186  su
+  187  cd ~
+  188  vi .bashrc
+  189  source .bashrc
+  190  locate ride.py
+  191  python /usr/bin/ride.py
+  192  swu
+  193  su
+  194  python /usr/bin/ride.py
+  195  su
+  196  sh chromedriver
+  197  su
+  198  cat .bashrc
+  199  cat PATH
+  200  cat $PATH
+  201  su
+  202  locate ride.py
+  203  python /usr/bin/ride.py
+  204  syu
+  205  su
+  206  su
+  207  ps -ef |grep java
+  208  ps -aux |grep java
+  209  ps -aux
+  210  setenforce 0
+  211  su
+  212  cd //
+  213  cd /
+  214  cd /home/program/
+  215  cd apache-tomcat-7.0.94/
+  216  ls
+  217  cd work/
+  218  ls
+  219  cd ..
+  220  ls
+  221  cd webapps/
+  222  ls
+  223  cd jenkins/
+  224  ls
+  225  ll
+  226  cd bootstrap/
+  227  ls
+  228  cd ..
+  229  ls
+  230  ll
+  231  cd ROOT/
+  232  ls
+  233  open tomcat-power.gif 
+  234  locate ride.py
+  235  python /usr/bin/ride.py 
+  236  git status
+  237  git add Test/
+  238  git status
+  239  git commit -a -m "test"
+  240  git status
+  241  git push
+  242  ll -a
+  243  ll
+  244  cd .
+  245  ls
+  246  cd /home/
+  247  cd document/
+  248  cd test/
+  249  ls
+  250  cd javaweb/
+  251  ls
+  252  cd loginserver/
+  253  ls
+  254  cd ..
+  255  ls
+  256  gradle --version
+  257  cd /home/document/test/
+  258  ls
+  259  git clone https://github.com/1359694358/robotframework.git
+  260  ls
+  261  cd robotframework/
+  262  ls
+  263  ll -h
+  264  ls -a
+  265  python /usr/bin/ride.py 
+  266  cd /home
+  267  ls
+  268  mkdir project
+  269  cd ..
+  270  cd home/
+  271  chmod 777 project -R
+  272  cd pro
+  273  cd project/
+  274  ls
+  275  cd hellospring/
+  276  ll -a
+  277  cd /home/software/
+  278  ls
+  279  ll
+  280  ls |grep .gz
+  281  tar -zxvf pycharm-professional-2019.1.3.tar.gz /home/program/
+  282  tar -zxvf pycharm-professional-2019.1.3.tar.gz -C /home/program/
+  283  cd /home/pro
+  284  cd /home/program/
+  285  ls
+  286  cd pycharm-2019.1.3/
+  287  ls
+  288  cd bin
+  289  ls
+  290  su
+  291  python /usr/bin/ride.py
+  292  su
+  293  git status
+  294  git commit -am "f"
+  295  git push
+  296  rpm -qa wubi
+  297  yum list|grep wubi
+  298  yum install ibus-table-chinese-wubi-jidian.noarch -y
+  299  su
+  300  cd /
+  301  python -version
+  302  python -v
+  303  python
+  304  yum -help
+  305  python2 -v
+  306  python -v
+  307  history
+  308  cd /usr/local/python3/lib/
+  309  ls
+  310  cd /usr/
+  311  ls
+  312  python -v
+  313  ls
+  314  mv pycharm.desktop.desktop pycharm.desktop
+  315  vi pycharm.desktop 
+  316  python3 -V
+  317  python -V
+  318  pip list
+  319  pip3 list
+  320  top
+  321  curl https://www.baidu.com
+  322  python
+  323  top
+  324  ps -ef|grep teamviewerd
+  325  top
+  326  python3 -V
+  327  python3
+  328  top
+  329  ps kill -9 1939
+  330  kill -9 1939
+  331  su
+  332  git remote add origin https://github.com/1359694358/python.git
+  333  git init
+  334  git remote add origin https://github.com/1359694358/python.git
+  335  git push -u origin master
+  336  git status
+  337  cd /home/program/smartgit/
+  338  cd bin
+  339  ./smartgit.sh 
+  340  touch smartgit.desktop
+  341  su
+  342  git push -u origin master
+  343  android
+  344  git status
+  345  git push origin master
+  346  python3
+  347  python3 /usr/bin/ride.py
+  348  python /usr/bin/ride.py
+  349  top
+  350  su
+  351  git status
+  352  git diff Trunk/gradlew
+  353  unzip SwitchyOmega_Chromium.zip 
+  354  rm -rf img
+  355  rm -rf js
+  356  rm -rf lib
+  357  rm -rf _locales
+  358  rm -rf _metadata
+  359  rm -rf partials
+  360  rm -rf popup
+  361  rm -rf AUTHORS 
+  362  rm -rf background.html 
+  363  rm -rf COPYING 
+  364  rm -rf manifest.json 
+  365  rm -rf options.html 
+  366  rm -rf popup.html 
+  367  unzip SwitchyOmega_Chromium.zip -f
+  368  unzip -f SwitchyOmega_Chromium.zip
+  369  unzip SwitchyOmega_Chromium.zip -C ./SwitchyOmega
+  370  unzip SwitchyOmega_Chromium.zip ./SwitchyOmega
+  371  mkdir SwitchyOmega
+  372  unzip SwitchyOmega_Chromium.zip ./SwitchyOmega
+  373  unzip SwitchyOmega_Chromium.zip -d=./SwitchyOmega
+  374  unzip SwitchyOmega_Chromium.zip -d=SwitchyOmega
+  375  unzip SwitchyOmega_Chromium.zip -d SwitchyOmega
+  376  git status
+  377  python /usr/bin/ride.py
+  378  sudo systemctl start httpd
+  379  sudo setenforce 0
+  380  getenforce
+  381  cd /bin/
+  382  ls
+  383  sh
+  384  ifconfig
+  385  ll
+  386  gradle -v
+  387  python3 -V
+  388  pip3 list
+  389  pip list
+  390  ndkbuild
+  391  android
+  392  echo $PATH
+  393  ndk-build
+  394  android list sdk
+  395  adb devces
+  396  adb devices
+  397  adb shell
+  398  sudo
+  399  man
+  400  whereis man
+  401  whereis python3
+  402  cd /usr/local/python3/
+  403  ls
+  404  cd bin/
+  405  ls
+  406  python3 -V
+  407  python3.7 -V
+  408  ./python3.7 -V
+  409  sh python3.7 -v
+  410  ./python3.7 -V
+  411  ./python3.7 -v
+  412  pip3 list
+  413  cd ..
+  414  git status
+  415  ls
+  416  cd ..
+  417  ls
+  418  cd testdoc/
+  419  ls
+  420  git status
+  421  su
+  422  ./fuck-build-debug-nolog.sh
+  423  chmod 777 fuck-build-debug-nolog.sh
+  424  ./fuck-build-debug-nolog.sh
+  425  gradle build --info
+  426  git status
+  427  ./fuck-build-debug-nolog.sh
+  428  git status
+  429  ./fuck-build-debug-nolog.sh
+  430  gradle build --scan
+  431  ./fuck-build-debug-nolog.sh
+  432  top
+  433  ./fuck-build-debug-nolog.sh 
+  434  ls
+  435  ll
+  436  ./fuck-build-debug-nolog.sh 
+  437  top
+  438  su
+  439  cd /home/program/crossover/lib/python/
+  440  ls
+  441  cat cxconfig.py
+  442  ls /etc
+  443  ls /etc/ |grep -i cross
+  444  python /usr/bin/ride.py
+  445  touch /etc/crossover.conf
+  446  sudo touch /etc/crossover.conf
+  447  cd opt
+  448  cd /opt/
+  449  ls
+  450  cd cxoffice/
+  451  ls
+  452  cd ..
+  453  su
+  454  locate crossover
+  455  rm -rf /usr/local/share/mime/application/x-crossover-tie.xml
+  456  rm -rf /usr/local/share/mime/application/x-crossover-msi.xml
+  457  rm -rf /usr/local/share/mime/application/x-crossover-lnk.xml
+  458  rm -rf /usr/local/share/mime/application/x-crossover-exe.xml
+  459  rm -rf /usr/local/share/mime/application/x-crossover-cxarchive.xml
+  460  rm -rf /usr/local/share/mime/application/x-crossover-c4p.xml
+  461  rm -rf /usr/local/share/icons/hicolor/64x64/apps/cxmenu-cxoffice-0-crossover.png
+  462  rm -rf /home/zouxudong/.local/share/mime/application/x-crossover-eif.xml
+  463  rm -rf /home/zouxudong/.local/share/mime/application/x-crossover-eip.xml
+  464  rm -rf /home/zouxudong/.local/share/mime/application/x-crossover-kipx.xml
+  465  rm -rf /usr/local/share/icons/hicolor/128x128/apps/cxmenu-cxoffice-0-crossover.png
+  466  rm -rf /usr/local/share/icons/hicolor/16x16/apps/cxmenu-cxoffice-0-crossover.png
+  467  rm -rf /usr/local/share/icons/hicolor/256x256/apps/cxmenu-cxoffice-0-crossover.png
+  468  rm -rf /usr/local/share/icons/hicolor/32x32/apps/cxmenu-cxoffice-0-crossover.png
+  469  rm -rf /usr/local/share/icons/hicolor/48x48/mimetypes/cxoffice-0_application_x-crossover-cxarchive.png
+  470  rm -rf /usr/local/share/icons/hicolor/48x48/mimetypes/cxoffice-0_application_x-crossover-exe.png
+  471  rm -rf /usr/local/share/icons/hicolor/48x48/mimetypes/cxoffice-0_application_x-crossover-lnk.png
+  472  rm -rf /usr/local/share/icons/hicolor/48x48/mimetypes/cxoffice-0_application_x-crossover-msi.png
+  473  rm -rf /usr/local/share/icons/hicolor/48x48/mimetypes/cxoffice-1_application_x-crossover-c4p.png
+  474  rm -rf /usr/local/share/icons/hicolor/48x48/mimetypes/cxoffice-1_application_x-crossover-tie.png
+  475  rm -rf /usr/local/share/icons/hicolor/64x64/apps/cxmenu-cxoffice-0-crossover.png
+  476  rm -rf /usr/local/share/mime/application/x-crossover-c4p.xml
+  477  rm -rf /usr/local/share/mime/application/x-crossover-cxarchive.xml
+  478  rm -rf /usr/local/share/mime/application/x-crossover-exe.xml
+  479  rm -rf /usr/local/share/mime/application/x-crossover-lnk.xml
+  480  rm -rf /usr/local/share/mime/application/x-crossover-msi.xml
+  481  rm -rf /usr/local/share/mime/application/x-crossover-tie.xml
+  482  locate crossover
+  483  rm -rf /usr/local/share/mime/application/x-crossover-c4p.xml
+  484  rm -rf /usr/local/share/icons/hicolor/64x64/apps/cxmenu-cxoffice-0-crossover.png
+  485  rm -rf /usr/local/share/icons/hicolor/48x48/mimetypes/cxoffice-1_application_x-crossover-tie.png
+  486  locate crossover
+  487  rm -rf /usr/local/share/mime/application/x-crossover-tie.xml
+  488  locate crossover
+  489  su
+  490  sudo rm -rf /opt/cxoffice
+  491  rm -rf ~/.cxoffice
+  492  rpm -ivh crossover-18.5.5rc1-1.rpm 
+  493  sudo rpm -ivh crossover-1
+  494  sudo rpm -e --nodeps crossover-18.5.5-1.i386
+  495  sudo rm -rf /opt/cxoffice
+  496  rm -rf ~/.cxoffice
+  497  locate crossover
+  498  cat /usr/local/share/mime/application/x-crossover-tie.xml
+  499  sudo cat /usr/local/share/mime/application/x-crossover-tie.xml
+  500  updatedb
+  501  suduo updatedb
+  502  sudo updatedb
+  503  locate crossover
+  504  sudo rm /etc/crossover.conf -rf
+  505  sudo ./install-crossover-18.5.5rc1.bin 
+  506  sudo rpm -e --nodeps crossover-18.5.5-1.i386
+  507  sudo rm /etc/crossover.conf -rf
+  508  rm -rf ~/.cxoffice
+  509  sudo rm -rf /opt/cxoffice
+  510  sudo updatedb
+  511  locate crossover
+  512  sudo updatedb
+  513  locate crossover
+  514  sudo rm -rf /opt/cxoffice
+  515  rm -rf ~/.cxoffice
+  516  su
+  517  ls /usr/erc
+  518  ls /usr/etc
+  519  cd /tec
+  520  cd /etc
+  521  ls
+  522  rpm -qa|sort
+  523  locate crossover
+  524  locate cxoffice
+  525  su
+  526  pwd
+  527  whereis crossover
+  528  .//opt/cxoffice/bin/crossover
+  529  ./opt/cxoffice/bin/crossover
+  530  cd /opt/cxoffice/bin/
+  531  ls
+  532  ./crossover 
+  533  rpm -qa|sort
+  534  rpm -qa|sort desc
+  535  rpm -qa|sort=desc
+  536  rpm -qa|desc
+  537  rpm -qa|sort
+  538  su
+  539  rpm -qa|sort
+  540  rpm -qa|grep -i crossover
+  541  sudo system start httpd
+  542  sudo setenforce 0
+  543  su
+  544  rpm -qa|grep -i alien
+  545  cd /home/software/
+  546  sudo alien -r intel-graphics-update-tool_2.0.3_amd64.deb intel-graphics-update-tool_2.0.3_amd64.rpm generated
+  547  ls |grep -i intel
+  548  yum install -y intel-graphics-update-tool-2.0.3-2.x86_64.rpm 
+  549  sudo yum install -y intel-graphics-update-tool-2.0.3-2.x86_64.rpm 
+  550  python /usr/bin/ride.py
+  551  locate fildder
+  552  cd /home/software/
+  553  ls
+  554  unzip fiddler-linux.zip fiddler-linux
+  555  unzip fiddler-linux.zip fiddler-linux -r
+  556  unzip fiddler-linux.zip fiddler_linux
+  557  unzip fiddler-linux.zip -dfiddler-linux
+  558  ls
+  559  cd fiddler-linux/
+  560  ls
+  561  sudo yum install fcitx fcitx-pinyin fcitx-configtool
+  562  sudo yum install qtwebkit -y
+  563  cd /home/software/
+  564  ls |grep -i sou
+  565  ls
+  566  sudo rpm -ivh --force sogoupinyin-2.2.0.0108-2.x86_64.rpm
+  567  sudo scl  enable  rh-ruby23 bash
+  568  ruby -v
+  569  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  570  sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)
+  571  cd /home/program/
+  572  mkdir homebrew
+  573  chmod 755 homebrew/
+  574  cd homebrew/
+  575  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  576  brew
+  577  unzip Fonts.zip -dfont
+  578  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  579  ruby -v
+  580  whereis ruby
+  581  sudo yum install centos-release-scl-rh -y
+  582  yum install rh-ruby23  -y
+  583  sudo yum install rh-ruby23  -y
+  584  scl  enable  rh-ruby23 bash
+  585  su
+  586  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  587  sudo chmod 775 -R /home
+  588  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  589  sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+  590   ruby -e "`curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install`" "$@"
+  591   ruby -e "`curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install`"
+  592  sudo chmod 777 -R /home
+  593  cd /home/software/
+  594  curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install >> brew_install
+  595  >brew_install 
+  596  unzip brew_install.zip -d
+  597  unzip brew_install.zip -d.
+  598  sudo chmod 755 brew_install
+  599  ./brew_install 
+  600  curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install >> brew_install
+  601  sudo chmod 755 brew_install
+  602  ./brew_install 
+  603  curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install >> brew_install
+  604  ./brew_install 
+  605  chmod 755 brew_install
+  606  ./brew_install 
+  607  chmod 775 -R /home
+  608  sudo chmod 775 -R /home
+  609  ./brew_install 
+  610   -R /home
+  611  sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+  612  yum install brew
+  613  sudo yum install brew
+  614  sudo yum install homebrew
+  615  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  616  locate Homebrew
+  617  locate brew
+  618  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  619  sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+  620  cat #!/usr/bin/env ruby
+  621  vi brew_install
+  622  ./brew_install
+  623  vi brew_install
+  624  cat $EVN
+  625  cat $ENV
+  626  whereis git
+  627  locate git
+  628  brew
+  629  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  630  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ```
+  631  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  632  git clone https://github.com/Homebrew/linuxbrew.git ~/.linuxbrew
+  633  git clone --depth=1 https://github.com/Homebrew/linuxbrew.git ~/.linuxbrew
+  634  cat $HOME
+  635  mv ~/linuxbrew /home/program/
+  636  sudo mv ~/linuxbrew /home/program/
+  637  cd ~.
+  638  cd ~/
+  639  vi .bashrc
+  640  source ~/.bashrc
+  641  cd /
+  642  sudo chmod 777 -R /home
+  643  brew
+  644  cat $PATH
+  645  git clone --depth=1 https://github.com/Homebrew/linuxbrew.git /home/program/homebrew
+  646  brew
+  647  brew install yasm
+  648  brew
+  649  brew install yasm
+  650  brew
+  651  brew  update
+  652  vim .bashrc
+  653  source .bashrc
+  654  brew  update
+  655  brew install yasm
+  656  git clone --depth=1 https://github.com/Homebrew/brew.git /home/program/homebrew
+  657  vi .bashrc
+  658  source .bashrc
+  659  brew install yasm
+  660  whereis yasm
+  661  whereis git
+  662  brew install node
+  663  whereis node
+  664  npm install -g appium
+  665  sudo npm install -g appium
+  666  npm install -g appium
+  667  npm install -g cnpm --registry=https://registry.npm.taobao.org
+  668  npm install wd --registry=https://registry.npm.taobao.org
+  669  whereis appium
+  670  appium &
+  671  cnpm -v
+  672   cnpm install appium@1.8.1
+  673  cnpm install appium@1.8.1
+  674  whereis appium
+  675  appium
+  676  npm install wd
+  677  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  678  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  679  cd /home/
+  680  cd ~.
+  681  cd ~/
+  682  yasm
+  683  whereis yasm
+  684  whereis appium
+  685  source .bashrc
+  686  whereis appium
+  687  cnpm install appium@1.8.1
+  688  appium &
+  689  npm install -g cnpm --registry=https://registry.npm.taobao.org
+  690  whereis appium
+  691  cnpm install -g appium
+  692  cnpm install wd
+  693  whereis appium
+  694  top
+  695  ps kill -9 1913
+  696  kill -9 1913
+  697  sudo kill -9 1913
+  698  hishory>>/home/document/history.txt
+  699  history>>/home/linux/history.txt
+  700  history>>/home/linux/document/history.txt
+  701  history>>/home/linux/document/linux.history.txt
+  702  history>>/home/linux/document/linux/history.txt
+  703* touch /home/document/linux/history.txt
+  704  history>>/home/document/linux/history.txt
