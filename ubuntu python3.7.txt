@@ -1,0 +1,65 @@
+https://blog.csdn.net/qq_39039017/article/details/79889521
+pip、pip3安装与更新，python3安装、卸载与更改Ubuntu默认Python版本方法
+
+
+下载Python3.7.3包解压 
+sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils
+
+cd Python-3.7.0/
+
+./configure prefix=/usr/local/python3 --with-ssl --enable-shared
+su # 不要用sudo 执行下面的语句  可能导致创建目录不成功
+make && make install
+
+
+error while loading shared libraries: libpython3.7m.so.1.0: cannot open shared object file: No such file or directory
+sudo cp /usr/local/python3/lib/libpython3.7m.so.1.0 /usr/lib64
+
+cd /etc/ld.so.conf.d
+vim python3.conf
+#添加python库路径，因为我们开始把python的编译后的路径设置在/usr/python，所以python库的路径为//usr/local/python3/lib/
+#按i输入,输入成功后按Esc建，输入:wq保存退出
+/usr/local/python3/lib/
+
+sudo ldconfig
+
+5、删除原来的软连接
+rm -rf /usr/bin/python3
+rm -rf /usr/bin/pip3
+
+6、添加python3的软链接
+ln -s /usr/local/python3/bin/python3 /usr/bin/python3
+
+7、添加 pip3 的软链接
+ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3
+--------------------- 
+版权声明：本文为CSDN博主「夜风晚凉」的原创文章，遵循CC 4.0 by-sa版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/weixin_41599977/article/details/93901363
+
+pip3报错
+sudo apt-get install python3-pip
+
+subprocess.CalledProcessError: Command ‘(‘lsb_release’, ‘-a’)’ returned non-zero exit status 1.
+
+解决方法
+find / -name lsb_release
+rm -rf /usr/bin/lsb_release
+--------------------- 
+版权声明：本文为CSDN博主「兔姐」的原创文章，遵循CC 4.0 by-sa版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/itdabaotu/article/details/83142918
+
+关于升级后不能打开命令行终端的问题
+ln -s python3.6 /usr/bin/python36
+cd /usr/bin/
+vi gnome-terminal 
+修改第一行的#!/usr/bin/python3 为#!/usr/bin/python36
+
+
+
+ubuntu vi键盘输入有问题的解决
+
+sudo vi /etc/vim/vimrc.tiny
+set nocompatible
+set backspace=2 
+
+
