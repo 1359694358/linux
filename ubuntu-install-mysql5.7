@@ -1,0 +1,82 @@
+Ubuntu14.04 下安装离线安装Mysql5.7
+2017年11月06日 14:42:58 涛哥博客 阅读数 1587
+版权声明：本文为博主原创文章，遵循 CC 4.0 by-sa 版权协议，转载请附上原文出处链接和本声明。
+本文链接：https://blog.csdn.net/wst878882582/article/details/78457531
+一、下载mysql。 
+官网下载地址：https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-server_5.7.20-1ubuntu17.04_amd64.deb-bundle.tar
+
+二、上传下载好的包到服务器并解压。
+
+命令：tar -xvf mysql-server_5.7.16-1ubuntu16.04_amd64.deb-bundle.tar
+
+解压后得到如下文件：
+
+这里写图片描述
+
+
+libmysqlclient20_5.7.16-1ubuntu16.04_amd64.deb
+libmysqlclient-dev_5.7.16-1ubuntu16.04_amd64.deb
+libmysqld-dev_5.7.16-1ubuntu16.04_amd64.deb
+mysql-client_5.7.16-1ubuntu16.04_amd64.deb
+mysql-common_5.7.16-1ubuntu16.04_amd64.deb
+mysql-community_5.7.16-1ubuntu16.04_amd64.changes
+mysql-community-client_5.7.16-1ubuntu16.04_amd64.deb
+mysql-community-server_5.7.16-1ubuntu16.04_amd64.deb
+mysql-community-source_5.7.16-1ubuntu16.04_amd64.deb
+mysql-community-test_5.7.16-1ubuntu16.04_amd64.deb
+mysql-server_5.7.16-1ubuntu16.04_amd64.deb
+mysql-server_5.7.16-1ubuntu16.04_amd64.deb-bundle.tar
+mysql-testsuite_5.7.16-1ubuntu16.04_amd64.debsan
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+三、安装所需包。
+
+sudo dpkg -i mysql-common_5.7.16-1ubuntu16.04_amd64.deb
+sudo dpkg-preconfigure mysql-community-server_5.7.16-1ubuntu16.04_amd64.deb
+#### 中间需要输入 root 密码
+sudo dpkg -i  libmysqlclient20_5.7.16-1ubuntu16.04_amd64.deb
+sudo dpkg -i  libmysqlclient-dev_5.7.16-1ubuntu16.04_amd64.deb
+sudo dpkg -i   libmysqld-dev_5.7.16-1ubuntu16.04_amd64.deb
+sudo dpkg -i   mysql-community-client_5.7.16-1ubuntu16.04_amd64.deb
+#### 注意：安装此步前需要安装libaio1      apt-get install libaio1
+sudo dpkg -i   mysql-client_5.7.16-1ubuntu16.04_amd64.deb
+sudo dpkg -i   mysql-common_5.7.16-1ubuntu16.04_amd64.deb
+sudo dpkg -i mysql-community-server_5.7.16-1ubuntu16.04_amd64.deb
+#### 注意：安装此步前需要安装libmecab2 apt-get install libmecab2
+sudo dpkg -i mysql-server_5.7.16-1ubuntu16.04_amd64.deb
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+四、安装完成，查看路径及依赖。 
+命令：whereis mysql 
+这里写图片描述
+
+五、查看版本 
+mysql –version 
+这里写图片描述
+
+到这儿msyql已经安装完成了，你可以开始登录mysql进行操作了！
