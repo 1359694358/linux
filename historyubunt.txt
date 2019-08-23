@@ -1,0 +1,605 @@
+    1  sudo vi /etc/vim/vimrc.tiny
+    2  gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+    3  cd ~
+    4  vi .bashrc
+    5  sourc .bashrc
+    6  source .bashrc
+    7  java -version
+    8  sudo password
+    9  su password
+   10  sudo password
+   11  sudo passwd
+   12  sudo apt install ssh
+   13  ifconfig
+   14  sudo apt install net-tools
+   15  ifconfig
+   16  cd /home/
+   17  cd /
+   18  sudo chmod -R 777 /home/
+   19  ssh zouxudong@192.168.3.2
+   20  sudo apt install git
+   21  su
+   22  adb devices
+   23  cd /home/software/
+   24  ls google-chrome-stable_current_amd64.deb 
+   25  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+   26  ll |grep -i python
+   27  sudo rm -rf Python-3.7.4
+   28  tar -zxvf Python-3.7.4.tgz 
+   29  sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils
+   30  cd Python-3.7.4/
+   31  ./configure prefix=/usr/local/python3 --with-ssl --enable-shared
+   32  su
+   33  cd /usr/local/python3
+   34  ls
+   35  cd bin
+   36  ls
+   37  python3.7 -V
+   38  python3 -V
+   39  python3.7 -V
+   40  ln -s /usr/local/python3/bin/python3.7 /usr/bin/python37
+   41  sudo ln -s /usr/local/python3/bin/python3.7 /usr/bin/python37
+   42  cd /
+   43  python37 -V
+   44  python3 -v
+   45  python3 -V
+   46  pip3 list
+   47  pip list
+   48  pip3 list
+   49  sudo pip3 install --upgrade pip
+   50  pip3 install --upgrade pip
+   51  sudo pip3 install --upgrade pip
+   52  cd /home/document/linux/
+   53  ls
+   54  cat requirements
+   55  sudo pip3 install -r requirements.txt 
+   56  pip3 list
+   57  git status
+   58  cd ..
+   59  cd test/
+   60  ls
+   61  cd javaweb/
+   62  git status
+   63  cd ..
+   64  cd python/
+   65  git status
+   66  git commit -am "msg"
+   67  git status
+   68  git add learnpython/oop
+   69  git status
+   70  git add learnpython/oop/People.py 
+   71  git add learnpython/oop/__init__.py 
+   72  git commit -am "msg"
+   73  git push origin master
+   74  git pull origin master
+   75  git push origin master
+   76  cd /
+   77  vnc://ubuntu-4.192.168.3.2
+   78  vnc://ubuntu-4
+   79  ssh zouxudong@192.168.3.2
+   80  cd /home/software/
+   81  ls
+   82  sudo apt install vlc
+   83  ls
+   84  dpkg -i crossover_18.5.0-1.deb 
+   85  sudo dpkg -i crossover_18.5.0-1.deb 
+   86  sudo dpkg --add-architecture i386
+   87  sudo apt-get update
+   88  sudo dpkg -i crossover_18.5.0-1.deb 
+   89  sudo apt-get install -f
+   90  sudo dpkg -i crossover_18.5.0-1.deb 
+   91  sudo apt-get install libsane:i386
+   92  sudo apt-get install python-wxgtk2.8
+   93  sudo apt-get update
+   94  sudo apt-get install python-wxgtk2.8
+   95  sudo pip install robotframework==3.0.4
+   96  pip install robotframework==3.0.4
+   97  pip list
+   98  history
+   99  $PATH
+  100  cd /usr/bin
+  101  ll
+  102  python -V
+  103  pip
+  104  pip list
+  105  cd /usr/bin
+  106  ll
+  107  pip2 list
+  108  cd ~
+  109  vi .bashrc
+  110  source .bashrc
+  111  pip list
+  112  python pip list
+  113  python -g  pip list
+  114  python -m  pip list
+  115  python3 -V
+  116  python37 -m pip list
+  117  python -m pip list
+  118  cd /usr/bin
+  119  ls -al
+  120  locate pip
+  121  cd /
+  122  pip list
+  123  type cd pip
+  124  cd /usr/local/python3/bin
+  125  ll
+  126  ls -al
+  127  cat $PATH
+  128  cd /bin
+  129  ls
+  130  ls |grep -i pip2
+  131  cat $PATH
+  132  cd /usr/local/bin
+  133  ls
+  134  cd /
+  135  sudo apt-get install python-pip
+  136  pip list
+  137  pip2 list
+  138  type cd pip2
+  139  sudo ln -s /usr/bin/pip2 /usr/bin/pip
+  140  rm -rf /usr/bin/pip
+  141  sudo rm -rf /usr/bin/pip
+  142  sudo ln -s /usr/bin/pip2 /usr/bin/pip
+  143  pip3 list
+  144  pip list
+  145  sudo ln -s /usr/bin/pip2 /usr/bin/pip
+  146  pip list
+  147  type cd pip
+  148  pip2 list
+  149  pip2 list --format=(legacy|columns)
+  150  pip2 list --format=legacy|columns
+  151  pip3 list
+  152  pip2 list
+  153  python2 -V
+  154  python3 -V
+  155  sudo pip2 install robotframework==3.0.4
+  156  sudo pip2 install robotframework-ride==1.5.2.1
+  157  sudo pip install robotframework-selenium2library
+  158  sudo pip2 install robotframework-selenium2library
+  159  sudo pip2 install robotframework-appiumlibrary
+  160  python /usr/bin/ride.py
+  161  locate ride.py
+  162  sudo updatedb
+  163  locate ride.py
+  164  python /usr/local/bin/ride.py
+  165  sudo apt install xrdp
+  166  sudo vi /etc/xrdp/startwm.sh
+  167  sudo systemctl enable xrdp
+  168  echo “xfce4-session” >~/.xsession
+  169  sudo vi /etc/xrdp/startwm.sh
+  170  sudo gedit /etc/xrdp/startwm.sh
+  171  sudo vi /etc/xrdp/startwm.sh
+  172  sudo service xrdp restart
+  173  sudo apt-get install xrdp vnc4server xbase-clients dconf-editor
+  174  ifconfig
+  175  service status httpd
+  176  top
+  177  exit
+  178  cd /home/
+  179  cd software/
+  180  dpkg -i teamviewer_14.4.2669_amd64.deb 
+  181  sudo dpkg -i teamviewer_14.4.2669_amd64.deb 
+  182  sudo apt-get update
+  183  sudo apt-get install -f
+  184  sudo dpkg -i teamviewer_14.4.2669_amd64.deb 
+  185  cd ..
+  186  ls
+  187  git pull origin master
+  188  gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-overview'
+  189  gsettings reset org.gnome.shell.extensions.dash-to-dock click-action
+  190  python37 PyUnit.py 
+  191  sudo apt install libcanberra-gtk-module
+  192  python2 -V
+  193  locate ride.py
+  194  python /usr/local/bin/ride.py
+  195  top
+  196  robot test.robot
+  197  robot py3rf/test.robot
+  198  robot test.robot
+  199  pip3 list
+  200  pip3 install -r requer.txt 
+  201  sudo pip3 install -r requer.txt 
+  202  pip3 list
+  203  python3 /home/software/webtest/webautotest.py 
+  204  cat /home/software/webtest/webautotest.py 
+  205  pip3 install werkzeug
+  206  python3 /home/software/webtest/webautotest.py 
+  207  pip3 list
+  208  pipenv install flask
+  209  sudo pip3 install flask
+  210  pip3 -g list
+  211  pip3 help
+  212  pip3 uninstall flask
+  213  sudo pip3 uninstall flask
+  214  sudo pip3 install flask
+  215  python3 /home/software/webtest/webautotest.py 
+  216  pipenv
+  217  pip3 list
+  218  pip2 install flask
+  219  sudo pip2 install flask
+  220  python3 /home/software/webtest/webautotest.py 
+  221  pip2 list
+  222  robot /home/document/test/python/learnpython/py3rf/test.robot
+  223  robot /home/document/test/python/learnpython/py3rf/zhengzhouunivercity.robot 
+  224  python37 /home/software/webtest/webautotest.py 
+  225  python /usr/local/bin/ride.py 
+  226  sudo apt-get install ntfs-3g
+  227  cd /home/document/test/javaweb/
+  228  ls
+  229  mkdir tomcat
+  230  cd tomcat/
+  231  ls
+  232  cd ../..
+  233  ls
+  234  cd javaweb/
+  235  git status
+  236  git add tomcat/
+  237  git status 
+  238  git add tomcat/tomcat-users.xml 
+  239  git commit -m "tomcat user config"
+  240  git push origin master
+  241  cd /home/software/
+  242  ls
+  243  cd phpwind/
+  244  ls
+  245  cd /
+  246  clear
+  247  cd /home/software/apache-jmeter-5.1.1/
+  248  ls
+  249  cd bin/
+  250  ls
+  251  cd /home/software/
+  252  cd /home/program/
+  253  ls
+  254  cd apache-tomcat-7.0.94/
+  255  ls
+  256  cd bin
+  257  ls
+  258  ./startup.sh 
+  259  cd .
+  260  ls
+  261  cd ..
+  262  ls
+  263  cat conf/
+  264  cd conf/
+  265  ls
+  266  cat tomcat-users.xml 
+  267  cat /home/zouxudong/.jenkins/secrets/initialAdminPassword
+  268  ls
+  269  cp tomcat-users.xml /home/document/test/javaweb/tomcat/
+  270  robot /home/document/test/python/learnpython/py3rf/zhengzhouunivercity.robot
+  271  cd ..
+  272  cd bin/
+  273  ./shutdown.sh 
+  274  robot /home/document/test/python/learnpython/py3rf/zhengzhouunivercity.robot
+  275  gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-overview'
+  276  cd /
+  277  clear
+  278  whereis brew
+  279  brew
+  280  sudo apt install linuxbrew-wrapper
+  281  brew -help
+  282  sudo rm -rf /home/linuxbrew/.linuxbrew
+  283  brew -help
+  284  apt-get install build-essentialw
+  285  sudo apt-get install build-essentialw
+  286  brew -help
+  287  brew
+  288  cd ~
+  289  vi .bashrc
+  290  source .bashrc
+  291  brew list
+  292  brew
+  293  brew help
+  294  brew install node
+  295  npm install -g appium
+  296  sudo apt install npm
+  297  npm install -g appium
+  298  npm install -g cnpm --registry=https://registry.npm.taobao.org
+  299  sudo npm install -g cnpm --registry=https://registry.npm.taobao.org
+  300  cnpm install -g appium
+  301  sudo cnpm install -g appium
+  302  sudo cnpm install wd
+  303  appium 
+  304  clear
+  305  sudo vi /etc/hosts
+  306  sudo /etc/init.d/networking restart
+  307  ruby
+  308  ruby -version
+  309  mysql
+  310  cd ~
+  311  ifconfig
+  312  ping www.baidu.com
+  313  cur https://www.baidu.com
+  314  curl https://www.baidu.com
+  315  clear
+  316  grep help
+  317  grep -help
+  318  clear
+  319  top
+  320  pip3 list
+  321  pip2 list
+  322  python -m pip2 install --upgrade pip
+  323  python -m pip install --upgrade pip
+  324  sudo python -m pip install --upgrade pip
+  325  pip2 list
+  326  pip list
+  327  pip3 list
+  328  clear
+  329  systemctl start httpd
+  330  sudo apt-get install httpd
+  331  sudo apt-get update
+  332  sudo apt-get install httpd
+  333  cd /home/software/
+  334  sudo dpkg -i mysql-apt-config_0.8.13-1_all.deb 
+  335  sudo apt-get update
+  336  sudo apt-get install mysql-server
+  337  mysql -u root -p
+  338  cd /
+  339  mysql -u root -p
+  340  cd /home/program/
+  341  cd apache-tomcat-7.0.94/
+  342  ls
+  343  cd webapps/
+  344  ls
+  345  cp /home/software/phpwind . -R
+  346  ls
+  347  cd phpwind/
+  348  ls
+  349  cd ./
+  350  cd ..
+  351  cd ../bin/
+  352  ls
+  353  ./startup.sh
+  354  cd ../webapps/
+  355  cd phpwind/
+  356  ls
+  357  cd /home/software/
+  358  tar -zxf navicat121_mysql_cs_x64.tar.gz 
+  359  cd navicat121_mysql_cs_x64/
+  360  ls
+  361  cd Navicat/
+  362  ls
+  363  cd ..
+  364  mv -help
+  365  mv --h
+  366  mv -r navicat121_mysql_cs_x64 /opt/
+  367  mv -r navicat121_mysql_cs_x64 /opt/navicat
+  368  mv  navicat121_mysql_cs_x64 /opt/ -r
+  369  mv  navicat121_mysql_cs_x64 /opt/
+  370  sudo mv  navicat121_mysql_cs_x64 /opt/
+  371  cd /opt/
+  372  cd navicat121_mysql_cs_x64/
+  373  ls
+  374  sudo vi start_navicat 
+  375  ./start_navicat 
+  376  cd ..
+  377  sudo rm -rf navicat121_mysql_cs_x64
+  378  mysql -uroot -p
+  379  exit
+  380  sudo install apache2
+  381  sudo apt install apache2
+  382  service status apache2
+  383  systemctl status apache2
+  384  sudo apt install php
+  385  php -v
+  386  sudo apt-get install php-mysql php-mbstring
+  387  sudo vi  /etc/apache2/mods-enabled/dir.conf
+  388  systemctl restart apacheaa2
+  389  ls /var/www/html/
+  390  ls
+  391  cp -rv /home/software/phpwind /var/www/html/
+  392  sudo cp -rv /home/software/phpwind /var/www/html/
+  393  sudo chmod -R 777 /var/www/html/phpwind
+  394  sudo apt install php-curl
+  395  sudo apt install phpmyadmin
+  396  ls /var/www/html/
+  397  sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
+  398  sudo apt-get install php-mbstring
+  399  ls /etc/php/
+  400  ls /etc/php/7.2/
+  401  ls /etc/php/7.2/mods-available/
+  402  sudo vi /etc/php/7.2/mods-available/json.ini 
+  403  cp /etc/php/7.2/mods-available/json.ini /etc/php/7.2/mods-available/json.ini.bak
+  404  sud cp /etc/php/7.2/mods-available/json.ini /etc/php/7.2/mods-available/json.ini.bak
+  405  sudo cp /etc/php/7.2/mods-available/json.ini /etc/php/7.2/mods-available/json.ini.bak
+  406  sudo vi /etc/php/7.2/mods-available/json.ini 
+  407  systemctl restart apache2
+  408  cd /usr/share/
+  409  ls
+  410  cd phpmyadmin/
+  411  ls
+  412  ls |grep -i config
+  413  sudo cp config.sample.inc.php config.inc.php
+  414  sud vi config.inc.php 
+  415  sudo vi config.inc.php 
+  416  systemctl restart apache2
+  417  sudo htpasswd /etc/phpmyadmin/htpasswd.setup admin
+  418  systemctl restart apache2
+  419  ls
+  420  sudo vi config.inc.php 
+  421  mysql
+  422  history
+  423  mysql
+  424  sudo apt-get autoremove --purge mysql-server
+  425  sudo dpkg --configure -a
+  426  sudo apt-get autoremove --purge mysql-server
+  427  dpkg -l|grep ^rc|awk '{print$2}'|sudo xargs dpkg -P
+  428  dpkg --list|grep mysql
+  429  sudo apt-get autoremove --purge mysql-apt-config
+  430  dpkg --list|grep mysql
+  431  sudo apt-get autoremove --purge mysql-apt-config
+  432  sudo rm -rf /usr/share/phpmyadmin
+  433  dpkg -l|grep ^rc|awk '{print$2}'|sudo xargs dpkg -P
+  434  dpkg --list|grep mysql
+  435  mysql
+  436  sudo dpkg remove mysql-community-client-core
+  437  sudo dpkg -r mysql-community-client-core
+  438  dpkg --list|grep mysql
+  439  mysql
+  440  cd /usr/bin/
+  441  ls
+  442  ll
+  443  ll |grep -i my
+  444  cd ..
+  445  cd /
+  446  mysql
+  447  haha
+  448  kfkkfkfkf
+  449  sudo rm /usr/bin/mysql
+  450  sudo updatedb
+  451  locate mysql
+  452  mysql
+  453  sudo apt remove phpmyadmin
+  454  sudo dpkg -r phpmyadmin
+  455  php -v
+  456  cd /home/software/mysql-server_5.7.20/
+  457  sudo ./installmysql57.sh 
+  458  mysql
+  459  mysql -hlocalhost -uroot -p
+  460  ./install.sh 
+  461  sudo ./install.sh 
+  462  git status
+  463  git lfs install
+  464  sudo git lfs install
+  465  find .gitattributes
+  466  touch .gitattributes
+  467  git lfs track "*.deb"
+  468  git add .gitattributes 
+  469  git status
+  470  sudo git status
+  471  git commit -am "lfs  mysql"
+  472  git revert
+  473  git log
+  474  git revert a72b317cad21a14f39d8af410abb957f0096774d
+  475  sudo rm -rf /home/document/linux/.git/lfs/tmp/356302461
+  476  git status
+  477  rm -rf /home/document/linux/.git/lfs/tmp/656312222
+  478  git status
+  479  rm -rf /home/document/linux/.git/lfs/tmp
+  480  sudo rm -rf /home/document/linux/.git/lfs/tmp
+  481  git status
+  482  sudo rm -rf /home/document/linux/.git/lfs/tmp
+  483  ls
+  484  cd .git/
+  485  ls
+  486  cd lfs
+  487  ls
+  488  ll -a
+  489  cd ../..
+  490  touch ubuntu install mysql5.7
+  491  touch ubuntu-install-mysql5.7
+  492  git add ubuntu-install-mysql5.7 
+  493  git commit -m "install mysql"
+  494  git push origin master
+  495  git add mysql-server_5.7.20/
+  496  cd mysql-server_5.7.20/
+  497  git add .
+  498  cd ..
+  499  git status
+  500  git push origin master
+  501  git commit -m "mysql install package"
+  502  git push origin master
+  503  git filter-branch -f --index-filter "git rm -rf --cached --ignore-unmatch FOLDERNAME" -- --all
+  504  git status
+  505  git push origin master
+  506  git config http.postBuffer 524288000
+  507  git push origin master
+  508  git lfs install
+  509  cd /home/software/
+  510  tar -zxvf git-lfs-linux-amd64-v2.8.0.tar.gz 
+  511  ./install.sh 
+  512  sudo ./install.sh 
+  513  rm README.md 
+  514  rm CHANGELOG.md 
+  515  rm git-lfs
+  516  rm install.sh
+  517  git status
+  518  cd ..
+  519  rm -rf https://github.com/1359694358/linux.git
+  520  git clone https://github.com/1359694358/linux.git
+  521  sudo rm -rf linux
+  522  git clone https://github.com/1359694358/linux.git
+  523  cd linux/
+  524  ./install.sh 
+  525  sudo ./install.sh 
+  526  touch .gitattributes
+  527  git add .gitattributes
+  528  git lfs track "*.deb"
+  529  git lfs install
+  530  sudo git lfs install
+  531  git add mysql-server_5.7.20/
+  532  sudo git add mysql-server_5.7.20/
+  533  cd ..
+  534  chggrp -R zouxudong linux
+  535  sudo chgrp zouxudong linux -R
+  536  sudo chown zouxudong linux -R
+  537  sudo chmod -R 777 linux
+  538  cd linux/
+  539  cd mysql-server_5.7.20/
+  540  git add .
+  541  cd ..
+  542  git status
+  543  git commit -am "lfs mysql"
+  544  git status
+  545  git add CHANGELOG.md 
+  546  git add README.md 
+  547  git add git-lfs 
+  548  git add install.sh 
+  549  git commit -am "lfs"
+  550  git push origin master
+  551  git config http.postBuffer 524288000
+  552  git push origin master
+  553  git -rf mysql-server_5.7.20/
+  554  git -rf mysql-server_5.7.20
+  555  git --rf mysql-server_5.7.20
+  556  git --r mysql-server_5.7.20
+  557  git -r mysql-server_5.7.20
+  558  git -rf mysql-server_5.7.20
+  559  clear
+  560  git log
+  561  git reset --hard 855aee9432c4c74bdf3e711430fb94d9a96bf5b1
+  562  git lfs track "*.deb"
+  563  git add .gitattributes 
+  564  git commit -m "deb lfs"
+  565  git push origin master
+  566  git add mysql-server_5.7.20/
+  567  git add mysql-server_5.7.20/.
+  568  git status
+  569  git add .
+  570  git status
+  571  git commit -m "deb file"
+  572  git push origin master
+  573  git status
+  574  git log
+  575  git reset --hard 51b1aae661d1eef4b2b426af7caf6e19d5cd2b66
+  576  git status
+  577  ls
+  578  ll -a
+  579  ll
+  580  git pull origin master
+  581  mkdir mysql5.7debinstallfiles
+  582  cd mysql5.7debinstallfiles/
+  583  git add .
+  584  cd ..
+  585  git commit -m "deb files"
+  586  git push origin master
+  587  cd mysql5.7debinstallfiles/
+  588  git add .
+  589  cd ..
+  590  git push origin master
+  591  git commit -m "deb"
+  592  git push origin master
+  593  locate apache
+  594  locate .bak
+  595  locate phpmyadmin
+  596  cd /var/www/html/phpmyadmin
+  597  rm /var/www/html/phpmyadmin
+  598  sudo rm /var/www/html/phpmyadmin
+  599  locate php.ini
+  600  cat /etc/php/7.2/apache2/php.ini
+  601  locate config
+  602  locate apache2.conf
+  603  cat /etc/apache2/apache2.conf
+  604  clear
+  605  history >historyubunt.txt
