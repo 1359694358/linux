@@ -32,7 +32,8 @@ rm -rf /usr/bin/python3
 rm -rf /usr/bin/pip3
 
 6、添加python3的软链接
-ln -s /usr/local/python3/bin/python3 /usr/bin/python3
+ln -s /usr/local/python3/bin/python3.7 /usr/bin/python37
+sudo ln -s /usr/local/python3/bin/pip3.7 /usr/bin/pip37
 
 7、添加 pip3 的软链接
 ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3
